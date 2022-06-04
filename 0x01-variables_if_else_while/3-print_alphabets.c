@@ -3,24 +3,21 @@
 #include <stdio.h>
 
 /**
- * main - a program that prints lowercase and uppercase alphabets
+ * main - a program that prints lowercase alphabets
  *
  * Return: return 0
  */
 int main(void)
 {
 	/* Declaration */
-	char ch, p;
+	char ch;
 
 	/* STatement */
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
 	}
-	for (p = 'A'; p <= 'Z'; p++)
-	{
-		putchar(p);
-	}
 	putchar('\n');
+
 	return (0);
 }

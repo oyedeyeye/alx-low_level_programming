@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - a program that prints lowercase and uppercase alphabets
+ * main - a program that prints the lowercase and uppercase alphabets
  *
  * Return: return 0
  */
@@ -19,10 +19,8 @@ int main(void)
 	}
 	for (p = 'A'; p <= 'Z'; p++)
 	{
-		putchar(p);
+		putchar(p'\n');
 	}
-	putchar('\n');
-
 	return (0);
 }
 

@@ -10,17 +10,14 @@
 int main(void)
 {
 	/* Declaration */
-	char ch, p;
+	char ch;
 
 	/* Statement */
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
 	}
-	for (p = 'A'; p <= 'Z'; p++)
-	{
-		putchar(p'\n');
-	}
+	putchar('\n');
 	return (0);
 }
 

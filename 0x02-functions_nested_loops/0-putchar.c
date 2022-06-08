@@ -5,7 +5,7 @@
  * Description : program to print _putchar to console
  * Return: Always 0 (Success)
  */
-int main void(void)
+int main (void)
 {
 	char putcharStr[] = "_putchar";
 	int lengthOfStr;

@@ -2,7 +2,7 @@
 
 /**
  * _abs - create absolute function
- * @n: argument n 
+ * @n: argument n
  * Return: absolutely value if negative
  */
 int _abs(int n)

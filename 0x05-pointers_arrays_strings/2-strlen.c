@@ -1,5 +1,5 @@
 /**
- *_@strlen - function to output the length of a string
+ *_strlen - function to output the length of a string
  * @s: an array of string
  *
  * Return: int

@@ -1,22 +1,16 @@
+#include "main.h"
 /**
- * rev_string - output reverse string
- * @s: string parameter input
- *
+ * print_rev - prints a string
+ * @s: pointer to string argument
  * Return: nothing
  */
-
-void rev_string(char *s)
+void print_rev(char *s)
 {
-	int l, i;
-	char ch;
+	int l = 0;
 
-	for (l = 0; s[l] != '\0'; ++l)
-		;
-
-	for (i = 0; i < l / 2; ++i)
-	{
-		ch = s[i];
-		s[i] = s[l - 1 - i];
-		s[l - 1 - i] = ch;
-	}
+	while (s[l] != '\0')
+		l++;
+	while (l-- >= 0)
+		_putchar(s[l]);
+	_putchar('\n');
 }
